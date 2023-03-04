@@ -1,0 +1,26 @@
+{
+    "companies": {
+        "homedepot": {
+            "pointChangeStore": { "X": 384, "Y": 1268 },
+            "pointFindOthers": { "X": 407, "Y": 1604 },
+            "pointLabel": { "X": 279, "Y": 1436 },
+            "pointSelectStore": { "X": 318, "Y": 1681},
+            "priceTags": { 
+                "div": "price-format__large price-format__main-price" 
+            },
+            "stockTags": { 
+                "span": "sui-ml-1" 
+            },
+            "stateBranches": [
+                {
+                    "state": "chicago",
+                    "branches": [
+                        {  "branchid": "#1950" }, {  "branchid": "#1912" }, {  "branchid": "#1986" }, {  "branchid": "#1986" }, {  "branchid": "#1976" }, {  "branchid": "#1961" }, {  "branchid": "#1911" },
+                        {  "branchid": "#1974" }, {  "branchid": "#1980" }, {  "branchid": "#1903" }, {  "branchid": "#1908" }, {  "branchid": "#1914" }, {  "branchid": "#8598" }, {  "branchid": "#1901" },
+                        {  "branchid": "#1955" }, {  "branchid": "#1902" }, {  "branchid": "#1935" }, {  "branchid": "#1983" }, {  "branchid": "#1907" }, {  "branchid": "#1919" }, {  "branchid": "#1981" }
+                    ]
+                }
+            ]
+        }
+    }
+}
