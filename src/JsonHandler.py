@@ -40,5 +40,5 @@ class JsonReader:
         with open(filename, "w") as outfile:
             json.dump(self.FinalJSONFile, outfile)
         workbook = Workbook(filename)
-        workbook.save("output/report.xlsx")
+        workbook.save(f'output/report_{date.strftime("%d/%m/%Y %H:%M:%S")}.xlsx')
         jpype.shutdownJVM()
