@@ -18,6 +18,102 @@
                     "branches": [
                         { "branchid": "#1950" }
                     ]
+                },
+                {
+                    "state": "indianopolis",
+                    "branches": [ 
+                        { "branchid": "#2014" }
+                    ]
+                },
+                {
+                    "state": "baltimore",
+                    "branches": [ 
+                        { "branchid": "#2505" }
+                    ]
+                },
+                {
+                    "state": "washington",
+                    "branches": [ 
+                        { "branchid": "#2583" }
+                    ]
+                },
+                {
+                    "state": "richmond",
+                    "branches": [ 
+                        { "branchid": "#4632" }
+                    ]
+                },
+                {
+                    "state": "charlotte",
+                    "branches": [ 
+                        { "branchid": "#3603" }
+                    ]
+                },
+                {
+                    "state": "charleston",
+                    "branches": [ 
+                        { "branchid": "#1171" }
+                    ]
+                },
+                {
+                    "state": "filadelfia",
+                    "branches": [ 
+                        { "branchid": "#4101" }
+                    ]
+                },
+                {
+                    "state": "atlanta",
+                    "branches": [ 
+                        { "branchid": "#0159" }
+                    ]
+                },
+                {
+                    "state": "orlando",
+                    "branches": [ 
+                        { "branchid": "#0261" }
+                    ]
+                },
+                {
+                    "state": "tampa",
+                    "branches": [ 
+                        { "branchid": "#0256" }
+                    ]
+                },
+                {
+                    "state": "birmingham",
+                    "branches": [ 
+                        { "branchid": "#0880" }
+                    ]
+                },
+                {
+                    "state": "memphis",
+                    "branches": [ 
+                        { "branchid": "#8916" }
+                    ]
+                },
+                {
+                    "state": "neworleans",
+                    "branches": [ 
+                        { "branchid": "#0352" }
+                    ]
+                },
+                {
+                    "state": "jackson",
+                    "branches": [ 
+                        { "branchid": "#2902" }
+                    ]
+                },
+                {
+                    "state": "dallas",
+                    "branches": [ 
+                        { "branchid": "#6816" }
+                    ]
+                },
+                {
+                    "state": "houston",
+                    "branches": [ 
+                        { "branchid": "#1326" }
+                    ]
                 }
             ]
         },
