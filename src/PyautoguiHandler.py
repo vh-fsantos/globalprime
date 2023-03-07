@@ -4,12 +4,14 @@ import platform
 import time
 import os
 
-PointsCopyInspectElement = { "X": 1430, "Y": 1238 }
-PointsCloseInspectElement = { "X": 1795, "Y": 1197 }
-pyautogui.PAUSE = .25
+PointsCopyInspectElement = { "X": 1405, "Y": 158 }
+PointsCloseInspectElement = { "X": 1665, "Y": 117 }
+
+pyautogui.PAUSE = 2.5
 
 class AutoGui:
     def __init__(self):
+        self.LastBranchId = ""
         if (self.IsMacOs()):
             self.ctrlKey =  'command'
         else:
@@ -32,29 +34,60 @@ class AutoGui:
 
     def NavigateTo(self, link):
         self.OpenChrome()
+        time.sleep(1)
         pyautogui.write(link)
         pyautogui.press('enter')
         time.sleep(2)
         return
     
-    def ChangeStore(self, company, branchId):
+    def ChangeStore(self, key, company, branchId):
+        lowes = key == "lowes"
+        menards = key == "menards"
+
         self.NavigateToPosition(company.PointChangeStore["X"], company.PointChangeStore["Y"])
-        pyautogui.click()
-        self.NavigateToPosition(company.PointFindOthers['X'], company.PointFindOthers['Y'])
-        pyautogui.click()
+        if not menards:
+            pyautogui.click()
+
+        if not lowes and not menards:
+            pointFindOthers = company.PointFindOthers['Y']
+            if self.LastBranchId in company.IdsIncreaseY:
+                pointFindOthers += 30
+            self.NavigateToPosition(company.PointFindOthers['X'], pointFindOthers)
+            pyautogui.click()
+
         self.NavigateToPosition(company.PointLabel['X'], company.PointLabel['Y'])
         pyautogui.click()
+
+        if lowes or menards: 
+            pyautogui.hotkey(self.ctrlKey, 'a')
+            pyautogui.hotkey(self.ctrlKey, 'c')
+            labelText = str(pyperclip.paste())
+
         pyautogui.write(branchId)
         pyautogui.press('enter')
-        self.NavigateToPosition(company.PointSelectStore['X'], company.PointSelectStore['Y'])
+        pointSelectStore = company.PointSelectStore['Y']
+        if menards and self.LastBranchId in company.IdsIncreaseY:
+            pointSelectStore += 15
+
+        self.NavigateToPosition(company.PointSelectStore['X'], pointSelectStore)
         pyautogui.click()
+        if lowes and labelText == branchId:
+            pyautogui.press('esc')
+
+        if not menards:    
+            self.LastBranchId = "#" + branchId
+        else:
+            self.LastBranchId = branchId    
+
+        time.sleep(1)
         return
 
     def NavigateToPosition(self, x, y):
-        pyautogui.moveTo(x, y, .5)
+        pyautogui.moveTo(x, y, 1)
         return
     
-    def GetHtml(self):        
+    def GetHtml(self):
+        time.sleep(1)
         pyautogui.press('f12')
         self.NavigateToPosition(PointsCopyInspectElement['X'], PointsCopyInspectElement['Y'])
         pyautogui.click()
@@ -71,3 +104,6 @@ class AutoGui:
     
     def Close(self):
         pyautogui.hotkey(self.ctrlKey, 'w')
+    
+    def ShowElapsedTime(self, totalElapsed):
+        pyautogui.alert(text=f'The execution was succeeded in {totalElapsed}s', title='Execution Finished', button='OK')

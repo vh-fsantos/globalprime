@@ -29,7 +29,9 @@ class JsonReader:
                 self.FinalJSONFile["Estoque"].append(branch.Stock)
                 self.FinalJSONFile["Data"].append(date.today().strftime("%d/%m/%Y"))    
 
-        print(self.FinalJSONFile)
+            filename = "assets/json/finaljson.json"
+            with open(filename, "w") as outfile:
+                json.dump(self.FinalJSONFile, outfile)
 
     def CreateXLSX(self):
         jpype.startJVM()

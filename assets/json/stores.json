@@ -1,10 +1,11 @@
 {
     "companies": {
         "homedepot": {
-            "pointChangeStore": { "X": 384, "Y": 1268 },
-            "pointFindOthers": { "X": 407, "Y": 1604 },
-            "pointLabel": { "X": 279, "Y": 1436 },
-            "pointSelectStore": { "X": 318, "Y": 1681},
+            "pointChangeStore": { "X": 252, "Y": 181 },
+            "pointFindOthers": { "X": 287, "Y": 526 },
+            "pointLabel": { "X": 169, "Y": 357 },
+            "pointSelectStore": { "X": 191, "Y": 599},
+            "idsIncreaseY": [ "#2579", "#2503", "#2501", "#2566", "#2583", "#2555", "#2551", "#4608", "#1171", "#4101", "#0154", "#6940", "#0880", "#8469", "#0385" ],
             "priceTags": { 
                 "div": "price-format__large price-format__main-price" 
             },
@@ -15,9 +16,151 @@
                 {
                     "state": "chicago",
                     "branches": [
-                        {  "branchid": "#1950" }, {  "branchid": "#1912" }, {  "branchid": "#1986" }, {  "branchid": "#1986" }, {  "branchid": "#1976" }, {  "branchid": "#1961" }, {  "branchid": "#1911" },
-                        {  "branchid": "#1974" }, {  "branchid": "#1980" }, {  "branchid": "#1903" }, {  "branchid": "#1908" }, {  "branchid": "#1914" }, {  "branchid": "#8598" }, {  "branchid": "#1901" },
-                        {  "branchid": "#1955" }, {  "branchid": "#1902" }, {  "branchid": "#1935" }, {  "branchid": "#1983" }, {  "branchid": "#1907" }, {  "branchid": "#1919" }, {  "branchid": "#1981" }
+                        { "branchid": "#1950" }
+                    ]
+                }
+            ]
+        },
+        "lowes": {
+            "pointChangeStore": { "X": 267, "Y": 141 },
+            "pointFindOthers": {},
+            "pointLabel": { "X": 640, "Y": 308 },
+            "pointSelectStore": { "X": 1048, "Y": 580},
+            "idsIncreaseY": [],
+            "priceTags": { 
+               "div": "main-price undefined split split-left"
+            },
+            "stockTags": { 
+                "div": "pickup-store-available"
+            },
+            "stateBranches": [
+                {
+                    "state": "chicago",
+                    "branches": [
+                        { "branchid": "#2728" }
+                    ]
+                },
+                {
+                    "state": "indianopolis",
+                    "branches": [
+                        { "branchid": "#1191" }
+                    ]
+                },
+                {
+                    "state": "baltimore",
+                    "branches": [
+                        { "branchid": "#0720" }
+                    ]
+                },
+                {
+                    "state": "washington",
+                    "branches": [
+                        { "branchid": "#3256" }
+                    ]
+                },
+                {
+                    "state": "richmond",
+                    "branches": [
+                        { "branchid": "#0381" }
+                    ]
+                },
+                {
+                    "state": "charlotte",
+                    "branches": [
+                        { "branchid": "#0489" }
+                    ]
+                },
+                {
+                    "state": "charleston",
+                    "branches": [
+                        { "branchid": "#2464" }
+                    ]
+                },
+                {
+                    "state": "filadelfia",
+                    "branches": [
+                        { "branchid": "#1980" }
+                    ]
+                },
+                {
+                    "state": "atlanta",
+                    "branches": [
+                        { "branchid": "#1807" }
+                    ]
+                },
+                {
+                    "state": "orlando",
+                    "branches": [
+                        { "branchid": "#2673" }
+                    ]
+                },
+                {
+                    "state": "tampa",
+                    "branches": [
+                        { "branchid": "#2238" }
+                    ]
+                },
+                {
+                    "state": "birmingham",
+                    "branches": [
+                        { "branchid": "#1744" }
+                    ]
+                },
+                {
+                    "state": "memphis",
+                    "branches": [
+                        { "branchid": "#1869" }
+                    ]
+                },
+                {
+                    "state": "neworleans",
+                    "branches": [
+                        { "branchid": "#2975" }
+                    ]
+                },
+                {
+                    "state": "jackson",
+                    "branches": [
+                        { "branchid": "#2620" }
+                    ]
+                },
+                {
+                    "state": "dallas",
+                    "branches": [
+                        { "branchid": "#0551" }
+                    ]
+                },
+                {
+                    "state": "houston",
+                    "branches": [
+                        { "branchid": "#0563" }
+                    ]
+                }
+            ]
+        },
+        "menards": {
+            "pointChangeStore": { "X": 442, "Y": 139 },
+            "pointFindOthers": {},
+            "pointLabel": { "X": 474, "Y": 312 },
+            "pointSelectStore": { "X": 481, "Y": 440 },
+            "idsIncreaseY": [ "60805" ],
+            "priceTags": { 
+               "span": "itemFinalPrice"
+            },
+            "stockTags": { 
+                "span": "font-weight-bold"
+            },
+            "stateBranches": [
+                {
+                    "state": "chicago",
+                    "branches": [
+                        { "branchid": "60639" }
+                    ]
+                },
+                {
+                    "state": "baltimore",
+                    "branches": [
+                        { "branchid": "26501" }
                     ]
                 }
             ]

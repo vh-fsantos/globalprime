@@ -1,8 +1,8 @@
 class Branch:
     def __init__(self, data):
         self.Id = data['branchid']
-        self.Price = ""
-        self.Stock = ""
+        self.Price = "0"
+        self.Stock = "0"
 
 class StateBranch:
     def __init__(self, stateBranchObj):
@@ -19,6 +19,7 @@ class Company:
         self.PointSelectStore = data["pointSelectStore"]
         self.PriceTags = data["priceTags"]
         self.StockTags = data["stockTags"]
+        self.IdsIncreaseY = data["idsIncreaseY"]
         self.StateBranches = []
         for obj in data["stateBranches"]:
             self.StateBranches.append(StateBranch(obj))  

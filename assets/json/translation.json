@@ -1,4 +1,22 @@
 {
     "homedepot": "Home Depot",
-    "chicago": "Chicago, Illinois"
+    "lowes": "Lowe's",
+    "menards": "Menards",
+    "chicago": "Chicago, Illinois",
+    "indianopolis": "Indianópolis, Indiana",
+    "baltimore": "Baltimore, Maryland",
+    "washington": "Washington, DC",
+    "richmond": "Richmond, Virginia",
+    "charlotte": "Charlotte, NC",
+    "charleston": "Charleston, SC",
+    "filadelfia": "Filadelfia, PA",
+    "atlanta": "Atlanta, GA",
+    "orlando": "Olando, FL",
+    "tampa": "Tampa, FL",
+    "birmingham": "Birmingham, AL",
+    "memphis": "Memphis, TN",
+    "neworleans": "New Orleans, Louisiana",
+    "jackson": "Jackson, MI",
+    "dallas": "Dallas, TX",
+    "houston": "Houston, TX"
 }
