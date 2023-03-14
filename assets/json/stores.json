@@ -1,10 +1,10 @@
 {
     "companies": {
         "homedepot": {
-            "pointChangeStore": { "X": 252, "Y": 181 },
-            "pointFindOthers": { "X": 287, "Y": 526 },
-            "pointLabel": { "X": 169, "Y": 357 },
-            "pointSelectStore": { "X": 191, "Y": 599},
+            "pointChangeStore": { "X": 135, "Y": 154 },
+            "pointFindOthers": { "X": 155, "Y": 496 },
+            "pointLabel": { "X": 170, "Y": 325 },
+            "pointSelectStore": { "X": 184, "Y": 570},
             "idsIncreaseY": [ "#2579", "#2503", "#2501", "#2566", "#2583", "#2555", "#2551", "#4608", "#1171", "#4101", "#0154", "#6940", "#0880", "#8469", "#0385" ],
             "priceTags": { 
                 "div": "price-format__large price-format__main-price" 
@@ -14,24 +14,35 @@
             },
             "stateBranches": [
                 {
-                    "state": "washington",
-                    "branches": [ 
-                        { "branchid": "#2583" } 
+                    "state": "chicago",
+                    "branches": [
+                        { "branchid": "#1950" }, { "branchid": "#1912" }, { "branchid": "#1986" }, { "branchid": "#1976" }, { "branchid": "#1961" }, { "branchid": "#1911" }, { "branchid": "#1974" }, 
+                        { "branchid": "#1980" }, { "branchid": "#1903" }, { "branchid": "#1908" }, { "branchid": "#1914" }, { "branchid": "#8598" }, { "branchid": "#1901" }, { "branchid": "#1955" }, 
+                        { "branchid": "#1902" }, { "branchid": "#1935" }, { "branchid": "#1983" }, { "branchid": "#1907" }, { "branchid": "#1919" }, { "branchid": "#1981" }
                     ]
                 },
                 {
-                    "state": "charleston",
+                    "state": "indianopolis",
                     "branches": [ 
-                        { "branchid": "#1171" }
+                        { "branchid": "#2014" }, { "branchid": "#2012" }, { "branchid": "#2011" }, { "branchid": "#2019" }, { "branchid": "#2037" }, { "branchid": "#2018" }, { "branchid": "#2026" },
+                        { "branchid": "#2017" }, { "branchid": "#8918" }
                     ]
-                }
+                },
+                {
+                    "state": "baltimore",
+                    "branches": [ 
+                        { "branchid": "#2505" }, { "branchid": "#2579" }, { "branchid": "#2577" }, { "branchid": "#2501" }, { "branchid": "#2584" }, { "branchid": "#2503" }, { "branchid": "#2587" },
+                        { "branchid": "#2504" }, { "branchid": "#2502" }, { "branchid": "#6945" }, { "branchid": "#2582" }, { "branchid": "#2566" }, { "branchid": "#2507" }, { "branchid": "#2565" },
+                        { "branchid": "#2575" }, { "branchid": "#2571" }, { "branchid": "#2581" }, { "branchid": "#2576" }, { "branchid": "#2506" }, { "branchid": "#2557" }
+                    ]
+                }   		
             ]
         },
         "lowes": {
-            "pointChangeStore": { "X": 267, "Y": 141 },
+            "pointChangeStore": { "X": 121, "Y": 109 },
             "pointFindOthers": {},
-            "pointLabel": { "X": 640, "Y": 308 },
-            "pointSelectStore": { "X": 1048, "Y": 580},
+            "pointLabel": { "X": 506, "Y": 157 },
+            "pointSelectStore": { "X": 874, "Y": 427 },
             "idsIncreaseY": [],
             "priceTags": { 
                "div": "main-price undefined split split-left"
@@ -45,110 +56,14 @@
                     "branches": [
                         { "branchid": "#2728" }
                     ]
-                },
-                {
-                    "state": "indianopolis",
-                    "branches": [
-                        { "branchid": "#1191" }
-                    ]
-                },
-                {
-                    "state": "baltimore",
-                    "branches": [
-                        { "branchid": "#0720" }
-                    ]
-                },
-                {
-                    "state": "washington",
-                    "branches": [
-                        { "branchid": "#3256" }
-                    ]
-                },
-                {
-                    "state": "richmond",
-                    "branches": [
-                        { "branchid": "#0381" }
-                    ]
-                },
-                {
-                    "state": "charlotte",
-                    "branches": [
-                        { "branchid": "#0489" }
-                    ]
-                },
-                {
-                    "state": "charleston",
-                    "branches": [
-                        { "branchid": "#2464" }
-                    ]
-                },
-                {
-                    "state": "filadelfia",
-                    "branches": [
-                        { "branchid": "#1980" }
-                    ]
-                },
-                {
-                    "state": "atlanta",
-                    "branches": [
-                        { "branchid": "#1807" }
-                    ]
-                },
-                {
-                    "state": "orlando",
-                    "branches": [
-                        { "branchid": "#2673" }
-                    ]
-                },
-                {
-                    "state": "tampa",
-                    "branches": [
-                        { "branchid": "#2238" }
-                    ]
-                },
-                {
-                    "state": "birmingham",
-                    "branches": [
-                        { "branchid": "#1744" }
-                    ]
-                },
-                {
-                    "state": "memphis",
-                    "branches": [
-                        { "branchid": "#1869" }
-                    ]
-                },
-                {
-                    "state": "neworleans",
-                    "branches": [
-                        { "branchid": "#2975" }
-                    ]
-                },
-                {
-                    "state": "jackson",
-                    "branches": [
-                        { "branchid": "#2620" }
-                    ]
-                },
-                {
-                    "state": "dallas",
-                    "branches": [
-                        { "branchid": "#0551" }
-                    ]
-                },
-                {
-                    "state": "houston",
-                    "branches": [
-                        { "branchid": "#0563" }
-                    ]
                 }
             ]
         },
         "menards": {
-            "pointChangeStore": { "X": 442, "Y": 139 },
+            "pointChangeStore": { "X": 303, "Y": 107 },
             "pointFindOthers": {},
-            "pointLabel": { "X": 474, "Y": 312 },
-            "pointSelectStore": { "X": 481, "Y": 440 },
+            "pointLabel": { "X": 314, "Y": 286 },
+            "pointSelectStore": { "X": 317, "Y": 404 },
             "idsIncreaseY": [ "60805" ],
             "priceTags": { 
                "span": "itemFinalPrice"
@@ -158,9 +73,9 @@
             },
             "stateBranches": [
                 {
-                    "state": "chicago",
+                    "state": "baltimore",
                     "branches": [
-                        { "branchid": "60639" }
+                        { "branchid": "26501" }
                     ]
                 }
             ]

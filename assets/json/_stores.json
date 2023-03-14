@@ -1,10 +1,10 @@
 {
     "companies": {
         "homedepot": {
-            "pointChangeStore": { "X": 252, "Y": 181 },
-            "pointFindOthers": { "X": 287, "Y": 526 },
-            "pointLabel": { "X": 169, "Y": 357 },
-            "pointSelectStore": { "X": 191, "Y": 599},
+            "pointChangeStore": { "X": 135, "Y": 154 },
+            "pointFindOthers": { "X": 155, "Y": 496 },
+            "pointLabel": { "X": 170, "Y": 325 },
+            "pointSelectStore": { "X": 184, "Y": 570},
             "idsIncreaseY": [ "#2579", "#2503", "#2501", "#2566", "#2583", "#2555", "#2551", "#4608", "#1171", "#4101", "#0154", "#6940", "#0880", "#8469", "#0385" ],
             "priceTags": { 
                 "div": "price-format__large price-format__main-price" 
@@ -140,10 +140,10 @@
             ]
         },
         "lowes": {
-            "pointChangeStore": { "X": 267, "Y": 141 },
+            "pointChangeStore": { "X": 121, "Y": 109 },
             "pointFindOthers": {},
-            "pointLabel": { "X": 640, "Y": 308 },
-            "pointSelectStore": { "X": 1048, "Y": 580},
+            "pointLabel": { "X": 506, "Y": 157 },
+            "pointSelectStore": { "X": 874, "Y": 427 },
             "idsIncreaseY": [],
             "priceTags": { 
                "div": "main-price undefined split split-left"
@@ -269,10 +269,10 @@
             ]
         },
         "menards": {
-            "pointChangeStore": { "X": 442, "Y": 139 },
+            "pointChangeStore": { "X": 303, "Y": 107 },
             "pointFindOthers": {},
-            "pointLabel": { "X": 474, "Y": 312 },
-            "pointSelectStore": { "X": 481, "Y": 440 },
+            "pointLabel": { "X": 314, "Y": 286 },
+            "pointSelectStore": { "X": 317, "Y": 426 },
             "idsIncreaseY": [ "60805" ],
             "priceTags": { 
                "span": "itemFinalPrice"

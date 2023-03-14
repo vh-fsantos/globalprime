@@ -4,8 +4,8 @@ import platform
 import time
 import os
 
-PointsCopyInspectElement = { "X": 1405, "Y": 158 }
-PointsCloseInspectElement = { "X": 1665, "Y": 117 }
+PointsCopyInspectElement = { "X": 1138, "Y": 126 }
+PointsCloseInspectElement = { "X": 1342, "Y": 83 }
 
 pyautogui.PAUSE = 2.5
 
