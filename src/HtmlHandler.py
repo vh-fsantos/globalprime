@@ -23,6 +23,11 @@ class HtmlReader:
 
     def CreateStock(self, key, tag):
         if key == "homedepot":
+            if tag.name == "div":
+                if tag.text.__contains__("Today"):
+                    return tag.text.replace(" in stock", "").replace("Today","")
+                else:
+                    return "0"
             return tag.text.replace(" in stock", "")
         if key == "lowes":
             spans = self.FindElements(f'<html>{tag}</html>', "span", "")
@@ -43,6 +48,6 @@ class HtmlReader:
 
         for key, value in collection.items():
             tags = self.FindElements(pageHtml, key, { "id" if menardsPrice else "class": value })
-            if (tags != ""):
+            if (tags.__len__() != 0):
                 return tags
         return []

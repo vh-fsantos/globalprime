@@ -7,22 +7,17 @@
             "pointSelectStore": { "X": 191, "Y": 599},
             "idsIncreaseY": [ "#2579", "#2503", "#2501", "#2566", "#2583", "#2555", "#2551", "#4608", "#1171", "#4101", "#0154", "#6940", "#0880", "#8469", "#0385" ],
             "priceTags": { 
-                "div": "price-format__large price-format__main-price" 
+                "div": "price-format__large price-format__main-price"
             },
             "stockTags": { 
-                "span": "sui-ml-1" 
+                "span": "sui-ml-1",
+                "div": "fulfillment__sub-title"
             },
             "stateBranches": [
                 {
-                    "state": "washington",
+                    "state": "chicago",
                     "branches": [ 
-                        { "branchid": "#2583" } 
-                    ]
-                },
-                {
-                    "state": "charleston",
-                    "branches": [ 
-                        { "branchid": "#1171" }
+                        { "branchid": "#1974" } 
                     ]
                 }
             ]
@@ -154,7 +149,7 @@
                "span": "itemFinalPrice"
             },
             "stockTags": { 
-                "span": "font-weight-bold"
+                "span": "pl-3 pl-md-0"
             },
             "stateBranches": [
                 {
