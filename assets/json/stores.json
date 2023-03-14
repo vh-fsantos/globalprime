@@ -69,7 +69,7 @@
                "span": "itemFinalPrice"
             },
             "stockTags": { 
-                "span": "font-weight-bold"
+                "span": "pl-3 pl-md-0"
             },
             "stateBranches": [
                 {
