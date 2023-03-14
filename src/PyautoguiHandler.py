@@ -58,7 +58,7 @@ class AutoGui:
         self.NavigateToPosition(company.PointLabel['X'], company.PointLabel['Y'])
         pyautogui.click()
 
-        if lowes or menards: 
+        if lowes: 
             pyautogui.hotkey(self.ctrlKey, 'a')
             pyautogui.hotkey(self.ctrlKey, 'c')
             labelText = str(pyperclip.paste())
