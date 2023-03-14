@@ -1,6 +1,7 @@
 import json
 import jpype
 from datetime import date
+from datetime import datetime
 
 class JsonReader:
     def __init__(self):
@@ -40,5 +41,5 @@ class JsonReader:
         with open(filename, "w") as outfile:
             json.dump(self.FinalJSONFile, outfile)
         workbook = Workbook(filename)
-        workbook.save(f'output/report_{date.strftime("%d/%m/%Y %H:%M:%S")}.xlsx')
+        workbook.save(f'output/report_{datetime.now().strftime("%d-%m-%Y %H-%M-%S")}.xlsx')
         jpype.shutdownJVM()
