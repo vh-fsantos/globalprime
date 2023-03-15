@@ -48,6 +48,6 @@ class HtmlReader:
 
         for key, value in collection.items():
             tags = self.FindElements(pageHtml, key, { "id" if menardsPrice else "class": value })
-            if (tags.__len__ > 0):
+            if (tags.__len__() != 0):
                 return tags
         return []
