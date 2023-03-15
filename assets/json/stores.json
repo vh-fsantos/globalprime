@@ -10,7 +10,8 @@
                 "div": "price-format__large price-format__main-price" 
             },
             "stockTags": { 
-                "span": "sui-ml-1" 
+                "span": "sui-ml-1",
+                "div": "fulfillment__sub-title"
             },
             "stateBranches": [
                 {
