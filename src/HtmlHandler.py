@@ -41,12 +41,12 @@ class HtmlReader:
 
             return spans[0].text.replace('\n', '').lstrip().rstrip()
 
-
     def GetTags(self, companyKey, price, pageHtml, collection):
         menardsPrice = companyKey == "menards" and price
 
         for key, value in collection.items():
-            tags = self.FindElements(pageHtml, key, { "id" if menardsPrice else "class": value })
-            if (tags.__len__() != 0):
-                return tags
+            for possibleClass in value:
+                tags = self.FindElements(pageHtml, key, { "id" if menardsPrice else "class": possibleClass })
+                if (tags.__len__() > 0):
+                    return tags
         return []
