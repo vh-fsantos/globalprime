@@ -23,7 +23,7 @@ class HtmlReader:
     def CreateStock(self, key, tag):
         if key == "homedepot":
             if tag.name == "div":
-                if tag.text.__contains__("Today"):
+                if tag.text.__contains__("Today") and not tag.text.__contains__("Pickup"):
                     return tag.text.replace(" in stock", "").replace("Today","")
                 else:
                     return "0"
