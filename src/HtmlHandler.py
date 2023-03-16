@@ -1,5 +1,4 @@
 from bs4 import BeautifulSoup
-import re
 
 class HtmlReader:
     def FindElements(self, data, lookedUpTag, lookedUpPredicate):
