@@ -14,7 +14,7 @@
 				"div": ["fulfillment__sub-title"]
             },
             "hasStockTags": {
-                "div": ["waning_text"]
+                "div": ["warning_text"]
             },
             "stateBranches": [
                 {
