@@ -18,6 +18,7 @@ class Company:
         self.PointLabel = data["pointLabel"]
         self.PointSelectStore = data["pointSelectStore"]
         self.PriceTags = data["priceTags"]
+        self.HasStockTags = data["hasStockTags"]
         self.StockTags = data["stockTags"]
         self.IdsIncreaseY = data["idsIncreaseY"]
         self.StateBranches = []

@@ -42,11 +42,12 @@ for key, value in configurationData.items():
 
             priceTags = htmlReader.GetTags(key, True, pageHtml, company.PriceTags)
             stockTags = htmlReader.GetTags(key, False, pageHtml, company.StockTags)
+            hasStockTags = htmlReader.GetTags(key, False, pageHtml, company.HasStockTags)
 
             if (priceTags.__len__() > 0):
                 branch.Price = htmlReader.CreatePrice(key, priceTags[0])
         
-            if (stockTags.__len__() > 0):
+            if (stockTags.__len__() > 0 and htmlReader.HasStock(hasStockTags[0])):
                 branch.Stock = htmlReader.CreateStock(key, stockTags[0])
                     
     jsonReader.CreateCompanyData(key, company, translator)

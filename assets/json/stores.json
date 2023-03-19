@@ -7,34 +7,20 @@
             "pointSelectStore": { "X": 184, "Y": 570},
             "idsIncreaseY": [ "#2579", "#2503", "#2501", "#2566", "#2583", "#2555", "#2551", "#4608", "#1171", "#4101", "#0154", "#6940", "#0880", "#8469", "#0385" ],
             "priceTags": { 
-                "div": "price-format__large price-format__main-price" 
+                "div": ["price-format__large price-format__main-price"]
             },
             "stockTags": { 
-                "span": "sui-ml-1",
-                "div": "fulfillment__sub-title"
+                "span": ["u__text--success u__bold", "sui-ml-1"],
+				"div": ["fulfillment__sub-title"]
+            },
+            "hasStockTags": {
+                "div": ["waning_text"]
             },
             "stateBranches": [
                 {
                     "state": "chicago",
                     "branches": [
-                        { "branchid": "#1950" }, { "branchid": "#1912" }, { "branchid": "#1986" }, { "branchid": "#1976" }, { "branchid": "#1961" }, { "branchid": "#1911" }, { "branchid": "#1974" }, 
-                        { "branchid": "#1980" }, { "branchid": "#1903" }, { "branchid": "#1908" }, { "branchid": "#1914" }, { "branchid": "#8598" }, { "branchid": "#1901" }, { "branchid": "#1955" }, 
-                        { "branchid": "#1902" }, { "branchid": "#1935" }, { "branchid": "#1983" }, { "branchid": "#1907" }, { "branchid": "#1919" }, { "branchid": "#1981" }
-                    ]
-                },
-                {
-                    "state": "indianopolis",
-                    "branches": [ 
-                        { "branchid": "#2014" }, { "branchid": "#2012" }, { "branchid": "#2011" }, { "branchid": "#2019" }, { "branchid": "#2037" }, { "branchid": "#2018" }, { "branchid": "#2026" },
-                        { "branchid": "#2017" }, { "branchid": "#8918" }
-                    ]
-                },
-                {
-                    "state": "baltimore",
-                    "branches": [ 
-                        { "branchid": "#2505" }, { "branchid": "#2579" }, { "branchid": "#2577" }, { "branchid": "#2501" }, { "branchid": "#2584" }, { "branchid": "#2503" }, { "branchid": "#2587" },
-                        { "branchid": "#2504" }, { "branchid": "#2502" }, { "branchid": "#6945" }, { "branchid": "#2582" }, { "branchid": "#2566" }, { "branchid": "#2507" }, { "branchid": "#2565" },
-                        { "branchid": "#2575" }, { "branchid": "#2571" }, { "branchid": "#2581" }, { "branchid": "#2576" }, { "branchid": "#2506" }, { "branchid": "#2557" }
+                        { "branchid": "#1950" }, { "branchid": "#1912" }
                     ]
                 }   		
             ]
@@ -46,11 +32,12 @@
             "pointSelectStore": { "X": 874, "Y": 427 },
             "idsIncreaseY": [],
             "priceTags": { 
-               "div": "main-price undefined split split-left"
+               "div": ["main-price undefined split split-left"]
             },
             "stockTags": { 
-                "div": "pickup-store-available"
+                "div": ["pickup-store-available"]
             },
+            "hasStockTags": { },
             "stateBranches": [
                 {
                     "state": "chicago",
@@ -67,11 +54,12 @@
             "pointSelectStore": { "X": 317, "Y": 404 },
             "idsIncreaseY": [ "60805" ],
             "priceTags": { 
-               "span": "itemFinalPrice"
+               "span": ["itemFinalPrice"]
             },
             "stockTags": { 
-                "span": "pl-3 pl-md-0"
+                "span": ["pl-3 pl-md-0"]
             },
+            "hasStockTags": { },
             "stateBranches": [
                 {
                     "state": "baltimore",

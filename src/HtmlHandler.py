@@ -41,6 +41,11 @@ class HtmlReader:
 
             return spans[0].text.replace('\n', '').lstrip().rstrip()
 
+    def HasStock(self, tag):
+        if tag.text.__contains__("Not in stock at "):
+            return False
+        return True
+
     def GetTags(self, companyKey, price, pageHtml, collection):
         menardsPrice = companyKey == "menards" and price
 
