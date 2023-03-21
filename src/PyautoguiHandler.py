@@ -51,7 +51,7 @@ class AutoGui:
         if not lowes and not menards:
             pointFindOthers = company.PointFindOthers['Y']
             if self.LastBranchId in company.IdsIncreaseY:
-                pointFindOthers += 30
+                pointFindOthers += 25
             self.NavigateToPosition(company.PointFindOthers['X'], pointFindOthers)
             pyautogui.click()
 
