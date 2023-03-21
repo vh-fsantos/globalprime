@@ -7,10 +7,14 @@
             "pointSelectStore": { "X": 184, "Y": 570},
             "idsIncreaseY": [ "#2579", "#2503", "#2501", "#2566", "#2583", "#2555", "#2551", "#4608", "#1171", "#4101", "#0154", "#6940", "#0880", "#8469", "#0385" ],
             "priceTags": { 
-                "div": "price-format__large price-format__main-price" 
+                "div": ["price-format__large price-format__main-price"]
             },
             "stockTags": { 
-                "span": "sui-ml-1" 
+                "span": ["u__text--success u__bold", "sui-ml-1"],
+				"div": ["fulfillment__sub-title"]
+            },
+            "hasStockTags": {
+                "div": ["warning_text"]
             },
             "stateBranches": [
                 {
@@ -136,6 +140,61 @@
                         { "branchid": "#0578" }, { "branchid": "#0569" }, { "branchid": "#6525" }, { "branchid": "#6510" }, { "branchid": "#0571" }, { "branchid": "#0584" }, { "branchid": "#6859" },
                         { "branchid": "#6567" }, { "branchid": "#6501" }, { "branchid": "#0565" }, { "branchid": "#1832" }, { "branchid": "#0585" }, { "branchid": "#6543" }
                     ]
+                },
+                {
+                    "state": "sanantonio",
+                    "branches": [ 
+                        { "branchid": "#0503" }, { "branchid": "#6529" }, { "branchid": "#6544" }, { "branchid": "#6988" }, { "branchid": "#0581" }, { "branchid": "#0580" }, { "branchid": "#0586" },
+                        { "branchid": "#0582" }, { "branchid": "#0588" }, { "branchid": "#6818" }, { "branchid": "#6547" }, { "branchid": "#6551" }, { "branchid": "#6550" }, { "branchid": "#6989" },
+                        { "branchid": "#6556" }, { "branchid": "#8437" }, { "branchid": "#8520" }
+                    ]
+                },
+                {
+                    "state": "mobile",
+                    "branches": [ 
+                        { "branchid": "#0865" }, { "branchid": "#0863" }, { "branchid": "#0801" }, { "branchid": "#0802" }
+                    ]
+                },
+                {
+                    "state": "jacksonville",
+                    "branches": [ 
+                        { "branchid": "#6346" }, { "branchid": "#0272" }, { "branchid": "#6351" }, { "branchid": "#0275" }, { "branchid": "#6365" }, { "branchid": "#0226" }, { "branchid": "#6890" }, 
+						{ "branchid": "#6369" }, { "branchid": "#6974" }, { "branchid": "#1324" }, { "branchid": "#6935" }
+                    ]
+                },
+                {
+                    "state": "miami",
+                    "branches": [ 
+                        { "branchid": "#6322" }, { "branchid": "#0251" }, { "branchid": "#6378" }, { "branchid": "#0209" }, { "branchid": "#0202" }, { "branchid": "#0277" }, { "branchid": "#0285" }, 
+						{ "branchid": "#6872" }, { "branchid": "#6343" }, { "branchid": "#6856" }, { "branchid": "#6852" }, { "branchid": "#6353" }, { "branchid": "#3331" }, { "branchid": "#6341" }, 
+						{ "branchid": "#6310" }, { "branchid": "#0206" }, { "branchid": "#0222" }, { "branchid": "#6326" }, { "branchid": "#0210" }, { "branchid": "#6306" }
+                    ]
+                },
+                {
+                    "state": "savannah",
+                    "branches": [ 
+                        { "branchid": "#0170" }, { "branchid": "#0122" }, { "branchid": "#0179" }
+                    ]
+                },
+				{
+                    "state": "pensacola",
+                    "branches": [ 
+                        { "branchid": "#6932" }, { "branchid": "#6853" }, { "branchid": "#8472" }, { "branchid": "#6368" }, { "branchid": "#0802" }, { "branchid": "#6301" }, { "branchid": "#0863" }
+                    ]
+                },
+                {
+                    "state": "tallahasse",
+                    "branches": [ 
+                        { "branchid": "#0254" }, { "branchid": "#6374" }
+                    ]
+                },
+                {
+                    "state": "mineapolis",
+                    "branches": [ 
+                        { "branchid": "#2807" }, { "branchid": "#2806" }, { "branchid": "#2845" }, { "branchid": "#2802" }, { "branchid": "#2805" }, { "branchid": "#2804" }, { "branchid": "#2808" }, 
+						{ "branchid": "#2847" }, { "branchid": "#2813" }, { "branchid": "#2843" }, { "branchid": "#2812" }, { "branchid": "#2801" }, { "branchid": "#2828" }, { "branchid": "#2844" }, 
+						{ "branchid": "#2803" }, { "branchid": "#2809" }, { "branchid": "#2841" }, { "branchid": "#2810" }, { "branchid": "#2833" }, { "branchid": "#2825" }
+                    ]
                 }
             ]
         },
@@ -146,11 +205,12 @@
             "pointSelectStore": { "X": 874, "Y": 427 },
             "idsIncreaseY": [],
             "priceTags": { 
-               "div": "main-price undefined split split-left"
+               "div": ["main-price undefined split split-left"]
             },
             "stockTags": { 
-                "div": "pickup-store-available"
+                "div": ["pickup-store-available"]
             },
+            "hasStockTags": { },
             "stateBranches": [
                 {
                     "state": "chicago",
@@ -257,13 +317,63 @@
                         { "branchid": "#2280" }, { "branchid": "#1771" }, { "branchid": "#1780" }, { "branchid": "#2280" }, { "branchid": "#1771" }, { "branchid": "#2441" }, { "branchid": "#0513" }, 
                         { "branchid": "#2440" }, { "branchid": "#0520" }
                     ]
-                },
+                ,
                 {
                     "state": "houston",
                     "branches": [
                         { "branchid": "#0563" }, { "branchid": "#0501" }, { "branchid": "#0750" }, { "branchid": "#1530" }, { "branchid": "#0555" }, { "branchid": "#0681" }, { "branchid": "#1145" },
                         { "branchid": "#1058" }, { "branchid": "#0098" }, { "branchid": "#3306" }, { "branchid": "#1131" }, { "branchid": "#1570" }, { "branchid": "#1128" }, { "branchid": "#1053" }, 
                         { "branchid": "#3027" }, { "branchid": "#0685" }, { "branchid": "#0651" }
+                    ]
+                },
+                {
+                    "state": "sanantonio",
+                    "branches": [
+                        { "branchid": "#2480" }, { "branchid": "#1579" }, { "branchid": "#2824" }, { "branchid": "#1088" }, { "branchid": "#1625" }, { "branchid": "#2898" }, { "branchid": "#1645" },
+                        { "branchid": "#1504" }, { "branchid": "#2786" }, { "branchid": "#2789" }
+                    ]
+                },
+                {
+                    "state": "mobile",
+                    "branches": [
+                        { "branchid": "#0212" }, { "branchid": "#1599" }, { "branchid": "#0549" }
+                    ]
+                },
+                {
+                    "state": "miami",
+                    "branches": [
+                        { "branchid": "#3315" }, { "branchid": "#0725" }, { "branchid": "#1681" }, { "branchid": "#1841" }, { "branchid": "#2254" }, { "branchid": "#2904" }, { "branchid": "#2707" }
+                    ]
+                },
+                {
+                    "state": "jacksonville",
+                    "branches": [
+                        { "branchid": "#2472" }, { "branchid": "#0503" }, { "branchid": "#1691" }, { "branchid": "#1699" }, { "branchid": "#1842" }, { "branchid": "#0502" }, { "branchid": "#1897" },
+						{ "branchid": "#2970" }
+                    ]
+                },
+                {
+                    "state": "savannah",
+                    "branches": [
+                        { "branchid": "#0403" }, { "branchid": "#2772" }
+                    ]
+                },
+                {
+                    "state": "mineapolis",
+                    "branches": [
+                        { "branchid": "#2465" }, { "branchid": "#2627" }, { "branchid": "#1955" }, { "branchid": "#2628" }, { "branchid": "#2313" }, { "branchid": "#2315" }
+                    ]
+                },
+                {
+                    "state": "pensacola",
+                    "branches": [
+                        { "branchid": "#2788" }, { "branchid": "#0438" }, { "branchid": "#1142" }
+                    ]
+                },
+                {
+                    "state": "tallahasse",
+                    "branches": [
+                        { "branchid": "#0716" }, { "branchid": "#0417" }
                     ]
                 }
             ]
@@ -272,14 +382,15 @@
             "pointChangeStore": { "X": 303, "Y": 107 },
             "pointFindOthers": {},
             "pointLabel": { "X": 314, "Y": 286 },
-            "pointSelectStore": { "X": 317, "Y": 426 },
+            "pointSelectStore": { "X": 317, "Y": 404 },
             "idsIncreaseY": [ "60805" ],
             "priceTags": { 
-               "span": "itemFinalPrice"
+               "span": ["itemFinalPrice"]
             },
             "stockTags": { 
-                "span": "font-weight-bold"
+                "span": ["pl-3 pl-md-0"]
             },
+            "hasStockTags": { },
             "stateBranches": [
                 {
                     "state": "chicago",
@@ -296,6 +407,31 @@
                     "state": "baltimore",
                     "branches": [
                         { "branchid": "26501" }
+                    ]
+                },
+				{
+                    "state": "indianopolis",
+                    "branches": [
+                        { "branchid": "46033" }, { "branchid": "46250" }, { "branchid": "46226" }, { "branchid": "46123" }, { "branchid": "46237" }, { "branchid": "46113" }, { "branchid": "46142" }
+                    ]
+                },
+				{
+                    "state": "richmond",
+                    "branches": [
+                        { "branchid": "47374" }
+                    ]
+                },
+				{
+                    "state": "cincinnati",
+                    "branches": [
+                        { "branchid": "41042" }, { "branchid": "45241" }, { "branchid": "45140" }
+                    ]
+                },
+				{
+                    "state": "mineapolis",
+                    "branches": [
+                        { "branchid": "55311" }, { "branchid": "55445" }, { "branchid": "55421" }, { "branchid": "55426" }, { "branchid": "55104" }, { "branchid": "55344" }, { "branchid": "55337" }, 
+                        { "branchid": "55124" }, { "branchid": "55118" }, { "branchid": "55128" }
                     ]
                 }
             ]

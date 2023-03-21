@@ -20,9 +20,182 @@
                 {
                     "state": "chicago",
                     "branches": [
-                        { "branchid": "#1950" }, { "branchid": "#1912" }
+                        { "branchid": "#1950" }, { "branchid": "#1912" }, { "branchid": "#1986" }, { "branchid": "#1976" }, { "branchid": "#1961" }, { "branchid": "#1911" }, { "branchid": "#1974" }, 
+                        { "branchid": "#1980" }, { "branchid": "#1903" }, { "branchid": "#1908" }, { "branchid": "#1914" }, { "branchid": "#8598" }, { "branchid": "#1901" }, { "branchid": "#1955" }, 
+                        { "branchid": "#1902" }, { "branchid": "#1935" }, { "branchid": "#1983" }, { "branchid": "#1907" }, { "branchid": "#1919" }, { "branchid": "#1981" }
                     ]
-                }   		
+                },
+                {
+                    "state": "indianopolis",
+                    "branches": [ 
+                        { "branchid": "#2014" }, { "branchid": "#2012" }, { "branchid": "#2011" }, { "branchid": "#2019" }, { "branchid": "#2037" }, { "branchid": "#2018" }, { "branchid": "#2026" },
+                        { "branchid": "#2017" }, { "branchid": "#8918" }
+                    ]
+                },
+                {
+                    "state": "baltimore",
+                    "branches": [ 
+                        { "branchid": "#2505" }, { "branchid": "#2579" }, { "branchid": "#2577" }, { "branchid": "#2501" }, { "branchid": "#2584" }, { "branchid": "#2503" }, { "branchid": "#2587" },
+                        { "branchid": "#2504" }, { "branchid": "#2502" }, { "branchid": "#6945" }, { "branchid": "#2582" }, { "branchid": "#2566" }, { "branchid": "#2507" }, { "branchid": "#2565" },
+                        { "branchid": "#2575" }, { "branchid": "#2571" }, { "branchid": "#2581" }, { "branchid": "#2576" }, { "branchid": "#2506" }, { "branchid": "#2557" }
+                    ]
+                },
+                {
+                    "state": "washington",
+                    "branches": [ 
+                        { "branchid": "#2583" }, { "branchid": "#2564" }, { "branchid": "#2552" }, { "branchid": "#2555" }, { "branchid": "#2551" }, { "branchid": "#8548" }, { "branchid": "#2554" },
+                        { "branchid": "#4608" }, { "branchid": "#2509" }, { "branchid": "#2558" }, { "branchid": "#4603" }, { "branchid": "#4640" }, { "branchid": "#4605" }, { "branchid": "#4638" },
+                        { "branchid": "#2562" }, { "branchid": "#4617" }, { "branchid": "#8550" }, { "branchid": "#4639" }
+                    ]
+                },
+                {
+                    "state": "richmond",
+                    "branches": [ 
+                        { "branchid": "#4632" }, { "branchid": "#4624" }, { "branchid": "#4631" }, { "branchid": "#4653" }, { "branchid": "#4611" }, { "branchid": "#4616" }, { "branchid": "#4627" },
+                        { "branchid": "#4633" }, { "branchid": "#4635" }
+                    ]
+                },
+                {
+                    "state": "charlotte",
+                    "branches": [ 
+                        { "branchid": "#3603" }, { "branchid": "#3608" }, { "branchid": "#3639" }, { "branchid": "#3646" }, { "branchid": "#3602" }, { "branchid": "#3601" }, { "branchid": "#3638" },
+                        { "branchid": "#3640" }, { "branchid": "#3662" }, { "branchid": "#3607" }, { "branchid": "#3606" }, { "branchid": "#1114" }, { "branchid": "#8913" }, { "branchid": "#3642" },
+                        { "branchid": "#3628" }
+                    ]
+                },
+                {
+                    "state": "charleston",
+                    "branches": [ 
+                        { "branchid": "#1171" }, { "branchid": "#1118" }, { "branchid": "#1103" }, { "branchid": "#1120" }
+                    ]
+                },
+                {
+                    "state": "filadelfia",
+                    "branches": [ 
+                        { "branchid": "#4101" }, { "branchid": "#4166" }, { "branchid": "#4150" }, { "branchid": "#4112" }, { "branchid": "#0989" }, { "branchid": "#4114" }, { "branchid": "#0917" },
+                        { "branchid": "#4109" }, { "branchid": "#4142" }, { "branchid": "#0929" }, { "branchid": "#4181" }, { "branchid": "#0914" }, { "branchid": "#0974" }, { "branchid": "#0970" },
+                        { "branchid": "#4103" }, { "branchid": "#6866" }, { "branchid": "#4188" }, { "branchid": "#4187" }, { "branchid": "#0940" }
+                    ]
+                },
+                {
+                    "state": "atlanta",
+                    "branches": [ 
+                        { "branchid": "#0159" }, { "branchid": "#6986" }, { "branchid": "#0130" }, { "branchid": "#0123" }, { "branchid": "#0117" }, { "branchid": "#0121" }, { "branchid": "#0118" },
+                        { "branchid": "#0154" }, { "branchid": "#6977" }, { "branchid": "#6941" }, { "branchid": "#0178" }, { "branchid": "#0114" }, { "branchid": "#0115" }, { "branchid": "#1749" },
+                        { "branchid": "#0175" }, { "branchid": "#0111" }, { "branchid": "#6940" }, { "branchid": "#0127" }, { "branchid": "#0153" }, { "branchid": "#1775" }
+                    ]
+                },
+                {
+                    "state": "orlando",
+                    "branches": [ 
+                        { "branchid": "#0261" }, { "branchid": "#6367" }, { "branchid": "#6349" }, { "branchid": "#0266" }, { "branchid": "#0232" }, { "branchid": "#0263" }, { "branchid": "#0262" },
+                        { "branchid": "#6869" }, { "branchid": "#8926" }, { "branchid": "#6328" }, { "branchid": "#6331" }, { "branchid": "#0287" }
+                    ]
+                },
+                {
+                    "state": "tampa",
+                    "branches": [ 
+                        { "branchid": "#0256" }, { "branchid": "#6327" }, { "branchid": "#6361" }, { "branchid": "#0279" }, { "branchid": "#0243" }, { "branchid": "#6380" }, { "branchid": "#0245" },
+                        { "branchid": "#0289" }, { "branchid": "#0257" }, { "branchid": "#6357" }, { "branchid": "#6305" }, { "branchid": "#0247" }, { "branchid": "#6311" }, { "branchid": "#6364" },
+                        { "branchid": "#6321" }, { "branchid": "#6951" }, { "branchid": "#6304" }
+                    ]
+                },
+                {
+                    "state": "birmingham",
+                    "branches": [ 
+                        { "branchid": "#0880" }, { "branchid": "#0875" }, { "branchid": "#0882" }, { "branchid": "#0881" }, { "branchid": "#0887" }
+                    ]
+                },
+                {
+                    "state": "memphis",
+                    "branches": [ 
+                        { "branchid": "#8916" }, { "branchid": "#0703" }, { "branchid": "#0737" }, { "branchid": "#2903" }, { "branchid": "#0725" }, { "branchid": "#0704" }, { "branchid": "#8469" }, 
+                        { "branchid": "#0729" }
+                    ]
+                },
+                {
+                    "state": "neworleans",
+                    "branches": [ 
+                        { "branchid": "#0352" }, { "branchid": "#0349" }, { "branchid": "#0385" }, { "branchid": "#0362" }, { "branchid": "#0373" }, { "branchid": "#0359" }, { "branchid": "#0368" }
+                    ]
+                },
+                {
+                    "state": "jackson",
+                    "branches": [ 
+                        { "branchid": "#2902" }, { "branchid": "#2917" }, { "branchid": "#2907" }, { "branchid": "#2912" }, { "branchid": "#2909" }
+                    ]
+                },
+                {
+                    "state": "dallas",
+                    "branches": [ 
+                        { "branchid": "#6816" }, { "branchid": "#0589" }, { "branchid": "#6804" }, { "branchid": "#0550" }, { "branchid": "#0598" }, { "branchid": "#6537" }, { "branchid": "#0552" },
+                        { "branchid": "#0564" }, { "branchid": "#0555" }, { "branchid": "#0563" }, { "branchid": "#0556" }, { "branchid": "#8976" }, { "branchid": "#0507" }, { "branchid": "#6504" },
+                        { "branchid": "#6555" }, { "branchid": "#6557" }, { "branchid": "#8517" }, { "branchid": "#0530" }, { "branchid": "#8951" }, { "branchid": "#0553" }
+                    ]
+                },
+                {
+                    "state": "houston",
+                    "branches": [ 
+                        { "branchid": "#1326" }, { "branchid": "#0577" }, { "branchid": "#6509" }, { "branchid": "#0566" }, { "branchid": "#6985" }, { "branchid": "#6806" }, { "branchid": "#6558" },
+                        { "branchid": "#0578" }, { "branchid": "#0569" }, { "branchid": "#6525" }, { "branchid": "#6510" }, { "branchid": "#0571" }, { "branchid": "#0584" }, { "branchid": "#6859" },
+                        { "branchid": "#6567" }, { "branchid": "#6501" }, { "branchid": "#0565" }, { "branchid": "#1832" }, { "branchid": "#0585" }, { "branchid": "#6543" }
+                    ]
+                },
+                {
+                    "state": "sanantonio",
+                    "branches": [ 
+                        { "branchid": "#0503" }, { "branchid": "#6529" }, { "branchid": "#6544" }, { "branchid": "#6988" }, { "branchid": "#0581" }, { "branchid": "#0580" }, { "branchid": "#0586" },
+                        { "branchid": "#0582" }, { "branchid": "#0588" }, { "branchid": "#6818" }, { "branchid": "#6547" }, { "branchid": "#6551" }, { "branchid": "#6550" }, { "branchid": "#6989" },
+                        { "branchid": "#6556" }, { "branchid": "#8437" }, { "branchid": "#8520" }
+                    ]
+                },
+                {
+                    "state": "mobile",
+                    "branches": [ 
+                        { "branchid": "#0865" }, { "branchid": "#0863" }, { "branchid": "#0801" }, { "branchid": "#0802" }
+                    ]
+                },
+                {
+                    "state": "jacksonville",
+                    "branches": [ 
+                        { "branchid": "#6346" }, { "branchid": "#0272" }, { "branchid": "#6351" }, { "branchid": "#0275" }, { "branchid": "#6365" }, { "branchid": "#0226" }, { "branchid": "#6890" }, 
+						{ "branchid": "#6369" }, { "branchid": "#6974" }, { "branchid": "#1324" }, { "branchid": "#6935" }
+                    ]
+                },
+                {
+                    "state": "miami",
+                    "branches": [ 
+                        { "branchid": "#6322" }, { "branchid": "#0251" }, { "branchid": "#6378" }, { "branchid": "#0209" }, { "branchid": "#0202" }, { "branchid": "#0277" }, { "branchid": "#0285" }, 
+						{ "branchid": "#6872" }, { "branchid": "#6343" }, { "branchid": "#6856" }, { "branchid": "#6852" }, { "branchid": "#6353" }, { "branchid": "#3331" }, { "branchid": "#6341" }, 
+						{ "branchid": "#6310" }, { "branchid": "#0206" }, { "branchid": "#0222" }, { "branchid": "#6326" }, { "branchid": "#0210" }, { "branchid": "#6306" }
+                    ]
+                },
+                {
+                    "state": "savannah",
+                    "branches": [ 
+                        { "branchid": "#0170" }, { "branchid": "#0122" }, { "branchid": "#0179" }
+                    ]
+                },
+				{
+                    "state": "pensacola",
+                    "branches": [ 
+                        { "branchid": "#6932" }, { "branchid": "#6853" }, { "branchid": "#8472" }, { "branchid": "#6368" }, { "branchid": "#0802" }, { "branchid": "#6301" }, { "branchid": "#0863" }
+                    ]
+                },
+                {
+                    "state": "tallahasse",
+                    "branches": [ 
+                        { "branchid": "#0254" }, { "branchid": "#6374" }
+                    ]
+                },
+                {
+                    "state": "mineapolis",
+                    "branches": [ 
+                        { "branchid": "#2807" }, { "branchid": "#2806" }, { "branchid": "#2845" }, { "branchid": "#2802" }, { "branchid": "#2805" }, { "branchid": "#2804" }, { "branchid": "#2808" }, 
+						{ "branchid": "#2847" }, { "branchid": "#2813" }, { "branchid": "#2843" }, { "branchid": "#2812" }, { "branchid": "#2801" }, { "branchid": "#2828" }, { "branchid": "#2844" }, 
+						{ "branchid": "#2803" }, { "branchid": "#2809" }, { "branchid": "#2841" }, { "branchid": "#2810" }, { "branchid": "#2833" }, { "branchid": "#2825" }
+                    ]
+                }
             ]
         },
         "lowes": {
@@ -42,7 +215,165 @@
                 {
                     "state": "chicago",
                     "branches": [
-                        { "branchid": "#2728" }
+                        { "branchid": "#2728" }, { "branchid": "#1748" }, { "branchid": "#1845" }, { "branchid": "#3284" }, { "branchid": "#2304" }, { "branchid": "#2301" }
+                    ]
+                },
+                {
+                    "state": "indianopolis",
+                    "branches": [
+                        { "branchid": "#1191" }, { "branchid": "#1525" }, { "branchid": "#2766" }, { "branchid": "#0145" }, { "branchid": "#0288" }, { "branchid": "#2681" }, { "branchid": "#0635" }, 
+                        { "branchid": "#1135" }, { "branchid": "#0275" }, { "branchid": "#0272" }, { "branchid": "#2319" }, { "branchid": "#0442" }, { "branchid": "#1168" }
+                    ]
+                },
+                {
+                    "state": "baltimore",
+                    "branches": [
+                        { "branchid": "#0720" }, { "branchid": "#2589" }, { "branchid": "#3388" }, { "branchid": "#2995" }, { "branchid": "#0691" }, { "branchid": "#0624" }, { "branchid": "#2244" }, 
+                        { "branchid": "#0631" }, { "branchid": "#2594" }, { "branchid": "#1188" }
+                    ]
+                },
+                {
+                    "state": "washington",
+                    "branches": [
+                        { "branchid": "#3256" }, { "branchid": "#1122" }, { "branchid": "#0715" }, { "branchid": "#0702" }, { "branchid": "#0452" }, { "branchid": "#1136" }
+                    ]
+                },
+                {
+                    "state": "richmond",
+                    "branches": [
+                        { "branchid": "#0381" }, { "branchid": "#0687" }, { "branchid": "#0247" }, { "branchid": "#1037" }, { "branchid": "#0113" }, { "branchid": "#0676" }, { "branchid": "#2691" }
+                    ]
+                },
+                {
+                    "state": "charlotte",
+                    "branches": [
+                        { "branchid": "#0489" }, { "branchid": "#0698" }, { "branchid": "#2352" }, { "branchid": "#0408" }, { "branchid": "#2348" }, { "branchid": "#1920" }, { "branchid": "#1060" },
+                        { "branchid": "#1124" }, { "branchid": "#0377" }, { "branchid": "#1112" }
+                    ]
+                },
+                {
+                    "state": "charleston",
+                    "branches": [
+                        { "branchid": "#2464" }, { "branchid": "#0358" }, { "branchid": "#2948" }, { "branchid": "#0497" }, { "branchid": "#3317" }, { "branchid": "#0655" }, { "branchid": "#0539" },
+                        { "branchid": "#0661" }
+                    ]
+                },
+                {
+                    "state": "filadelfia",
+                    "branches": [
+                        { "branchid": "#1980" }, { "branchid": "#1848" }, { "branchid": "#2732" }, { "branchid": "#3169" }, { "branchid": "#2378" }, { "branchid": "#3277" }, { "branchid": "#0757" },
+                        { "branchid": "#1849" }
+                    ]
+                },
+                {
+                    "state": "atlanta",
+                    "branches": [
+                        { "branchid": "#1807" }, { "branchid": "#1119" }, { "branchid": "#0531" }, { "branchid": "#1651" }, { "branchid": "#1875" }, { "branchid": "#1715" }, { "branchid": "#0686" }
+                    ]
+                },
+                {
+                    "state": "orlando",
+                    "branches": [
+                        { "branchid": "#2673" }, { "branchid": "#0604" }, { "branchid": "#2652" }, { "branchid": "#1140" }, { "branchid": "#2651" }, { "branchid": "#0642" }, { "branchid": "#1598" },
+                        { "branchid": "#0670" }, { "branchid": "#1652" }, { "branchid": "#3350" }
+                    ]
+                },
+                {
+                    "state": "tampa",
+                    "branches": [
+                        { "branchid": "#2238" }, { "branchid": "#1003" }, { "branchid": "#2360" }, { "branchid": "#0564" }, { "branchid": "#2639" }, { "branchid": "#1714" }, { "branchid": "#1629" },
+                        { "branchid": "#0573" }, { "branchid": "#2282" }, { "branchid": "#1911" }, { "branchid": "#0740" }, { "branchid": "#0771" }, { "branchid": "#1701" }
+                    ]
+                },
+                {
+                    "state": "birmingham",
+                    "branches": [
+                        { "branchid": "#1744" }, { "branchid": "#0594" }, { "branchid": "#1737" }, { "branchid": "#1531" }, { "branchid": "#0580" }, { "branchid": "#1726" }, { "branchid": "#0620" }
+                    ]
+                },
+                {
+                    "state": "memphis",
+                    "branches": [
+                        { "branchid": "#1869" }, { "branchid": "#1187" }, { "branchid": "#2237" }, { "branchid": "#1526" }, { "branchid": "#1163" }, { "branchid": "#1988" }, { "branchid": "#2543" }
+                    ]
+                },
+                {
+                    "state": "neworleans",
+                    "branches": [
+                        { "branchid": "#2975" }, { "branchid": "#1085" }, { "branchid": "#2470" }, { "branchid": "#1877" }
+                    ]
+                },
+                {
+                    "state": "jackson",
+                    "branches": [
+                        { "branchid": "#2620" }, { "branchid": "#2622" }, { "branchid": "#2553" }, { "branchid": "#2369" }
+                    ]
+                },
+                {
+                    "state": "dallas",
+                    "branches": [
+                        { "branchid": "#0551" }, { "branchid": "#0550" }, { "branchid": "#0665" }, { "branchid": "#2567" }, { "branchid": "#1059" }, { "branchid": "#2878" }, { "branchid": "#3104" },
+                        { "branchid": "#1199" }, { "branchid": "#0505" }, { "branchid": "#2779" }, { "branchid": "#0611" }, { "branchid": "#0610" }, { "branchid": "#0510" }, { "branchid": "#1780" }, 
+                        { "branchid": "#2280" }, { "branchid": "#1771" }, { "branchid": "#1780" }, { "branchid": "#2280" }, { "branchid": "#1771" }, { "branchid": "#2441" }, { "branchid": "#0513" }, 
+                        { "branchid": "#2440" }, { "branchid": "#0520" }
+                    ]
+                ,
+                {
+                    "state": "houston",
+                    "branches": [
+                        { "branchid": "#0563" }, { "branchid": "#0501" }, { "branchid": "#0750" }, { "branchid": "#1530" }, { "branchid": "#0555" }, { "branchid": "#0681" }, { "branchid": "#1145" },
+                        { "branchid": "#1058" }, { "branchid": "#0098" }, { "branchid": "#3306" }, { "branchid": "#1131" }, { "branchid": "#1570" }, { "branchid": "#1128" }, { "branchid": "#1053" }, 
+                        { "branchid": "#3027" }, { "branchid": "#0685" }, { "branchid": "#0651" }
+                    ]
+                },
+                {
+                    "state": "sanantonio",
+                    "branches": [
+                        { "branchid": "#2480" }, { "branchid": "#1579" }, { "branchid": "#2824" }, { "branchid": "#1088" }, { "branchid": "#1625" }, { "branchid": "#2898" }, { "branchid": "#1645" },
+                        { "branchid": "#1504" }, { "branchid": "#2786" }, { "branchid": "#2789" }
+                    ]
+                },
+                {
+                    "state": "mobile",
+                    "branches": [
+                        { "branchid": "#0212" }, { "branchid": "#1599" }, { "branchid": "#0549" }
+                    ]
+                },
+                {
+                    "state": "miami",
+                    "branches": [
+                        { "branchid": "#3315" }, { "branchid": "#0725" }, { "branchid": "#1681" }, { "branchid": "#1841" }, { "branchid": "#2254" }, { "branchid": "#2904" }, { "branchid": "#2707" }
+                    ]
+                },
+                {
+                    "state": "jacksonville",
+                    "branches": [
+                        { "branchid": "#2472" }, { "branchid": "#0503" }, { "branchid": "#1691" }, { "branchid": "#1699" }, { "branchid": "#1842" }, { "branchid": "#0502" }, { "branchid": "#1897" },
+						{ "branchid": "#2970" }
+                    ]
+                },
+                {
+                    "state": "savannah",
+                    "branches": [
+                        { "branchid": "#0403" }, { "branchid": "#2772" }
+                    ]
+                },
+                {
+                    "state": "mineapolis",
+                    "branches": [
+                        { "branchid": "#2465" }, { "branchid": "#2627" }, { "branchid": "#1955" }, { "branchid": "#2628" }, { "branchid": "#2313" }, { "branchid": "#2315" }
+                    ]
+                },
+                {
+                    "state": "pensacola",
+                    "branches": [
+                        { "branchid": "#2788" }, { "branchid": "#0438" }, { "branchid": "#1142" }
+                    ]
+                },
+                {
+                    "state": "tallahasse",
+                    "branches": [
+                        { "branchid": "#0716" }, { "branchid": "#0417" }
                     ]
                 }
             ]
@@ -62,9 +393,45 @@
             "hasStockTags": { },
             "stateBranches": [
                 {
+                    "state": "chicago",
+                    "branches": [
+                        { "branchid": "60639" }, { "branchid": "60804" }, { "branchid": "60805" }, { "branchid": "60053" }, { "branchid": "60160" }, { "branchid": "60525" }, { "branchid": "60455" }, 
+                        { "branchid": "60418" }, { "branchid": "60419" }, { "branchid": "60056" }, { "branchid": "46320" }, { "branchid": "60477" }, { "branchid": "60430" }, { "branchid": "60139" }, 
+                        { "branchid": "60491" }, { "branchid": "60440" }, { "branchid": "60443" }, { "branchid": "46375" }, { "branchid": "60047" }, { "branchid": "60133" }, { "branchid": "60185" }, 
+                        { "branchid": "46410" }, { "branchid": "60540" }, { "branchid": "60061" }, { "branchid": "46368" }, { "branchid": "60403" }, { "branchid": "60585" }, { "branchid": "60538" }, 
+                        { "branchid": "60510" }, { "branchid": "60435" }, { "branchid": "60123" }, { "branchid": "60031" }, { "branchid": "46360" }, { "branchid": "60110" }, { "branchid": "60014" }, 
+                        { "branchid": "46383" }, { "branchid": "60020" }, { "branchid": "60560" }, { "branchid": "60002" }, { "branchid": "53142" }, { "branchid": "60098" }
+                    ]
+                },
+                {
                     "state": "baltimore",
                     "branches": [
                         { "branchid": "26501" }
+                    ]
+                },
+				{
+                    "state": "indianopolis",
+                    "branches": [
+                        { "branchid": "46033" }, { "branchid": "46250" }, { "branchid": "46226" }, { "branchid": "46123" }, { "branchid": "46237" }, { "branchid": "46113" }, { "branchid": "46142" }
+                    ]
+                },
+				{
+                    "state": "richmond",
+                    "branches": [
+                        { "branchid": "47374" }
+                    ]
+                },
+				{
+                    "state": "cincinnati",
+                    "branches": [
+                        { "branchid": "41042" }, { "branchid": "45241" }, { "branchid": "45140" }
+                    ]
+                },
+				{
+                    "state": "mineapolis",
+                    "branches": [
+                        { "branchid": "55311" }, { "branchid": "55445" }, { "branchid": "55421" }, { "branchid": "55426" }, { "branchid": "55104" }, { "branchid": "55344" }, { "branchid": "55337" }, 
+                        { "branchid": "55124" }, { "branchid": "55118" }, { "branchid": "55128" }
                     ]
                 }
             ]

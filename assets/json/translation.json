@@ -18,5 +18,14 @@
     "neworleans": "New Orleans, Louisiana",
     "jackson": "Jackson, MI",
     "dallas": "Dallas, TX",
-    "houston": "Houston, TX"
+    "houston": "Houston, TX",
+	"sanantonio": "San Antonio, TX",
+	"mobile": "Mobile, AL",
+	"jacksonville": "Jacksonville, FL",
+	"miami": "Miami, FL",
+	"savannah": "Savannah, GA",
+	"pensacola": "Pensacola, FL",
+	"tallahasse": "Tallahasse, FL",
+	"mineapolis": "Mineapolis, MN",
+	"cincinnati": "Cincinnati, Ohio"
 }
