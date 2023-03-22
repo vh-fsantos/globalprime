@@ -7,7 +7,7 @@ import os
 PointsCopyInspectElement = { "X": 1138, "Y": 126 }
 PointsCloseInspectElement = { "X": 1342, "Y": 83 }
 
-pyautogui.PAUSE = 2
+pyautogui.PAUSE = 2.75
 
 class AutoGui:
     def __init__(self):
